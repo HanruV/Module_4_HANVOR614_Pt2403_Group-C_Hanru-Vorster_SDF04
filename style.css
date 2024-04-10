@@ -104,3 +104,21 @@ p {
     transition: 2s;
     border: 3px solid rgba(180,193,255,1)
 }
+
+.btn-3:hover {
+    animation: shake .2s ease infinite .2s;
+    box-shadow: ;
+    cursor: grab;
+    box-shadow: 0px 0px 6px 3px rgba(252,70,107,0.76);
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(252,70,107,0.76);
+    -moz-box-shadow: 0px 0px 6px 3px rgba(252,70,107,0.76);
+    transition: .2s ease-in-out;
+}
+
+@keyframes shake {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(1deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-1deg);}
+    100% {transform: rotate(0deg);}
+}
