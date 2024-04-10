@@ -1,3 +1,14 @@
+/* variables */
+
+:root {
+    --ff-btn1: "Fraunces", serif;
+    --ff-btn2: "Poppins", sans-serif;
+    --ff-btn3: "Playfair Display", serif;
+
+}
+
+
+
 body {
     background: #eeefed;
 }
@@ -52,3 +63,20 @@ p {
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
+
+/* btn-1 */
+    .btn-1 {
+        font-family: var(--ff-btn1);
+        font-weight: 900;
+        
+    }
+
+/* btn-2 */
+    .btn-2 {
+        font-family: var(--ff-btn2);
+    }
+
+/* btn-3 */
+.btn-3 {
+    font-family: var(--ff-btn3);
+}
