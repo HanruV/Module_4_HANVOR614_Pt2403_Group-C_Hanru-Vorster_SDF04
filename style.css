@@ -45,20 +45,10 @@ p {
 .custom-btn {
     width: 130px;
     height: 40px;
-    color: #000;
-    border-radius: 5px;
     padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
     position: relative;
     display: block;
     margin: 0 auto 20px; /* Center and add margin to stack vertically */
-    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-        7px 7px 20px 0px rgba(0, 0, 0, .1),
-        4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
 }
 
@@ -66,17 +56,19 @@ p {
 
 /* btn-1 */
     .btn-1 {
-        font-family: var(--ff-btn1);
+        color: #FFC75F;
+        background-color: #FF6F91;
+        font-family: "Fraunces", serif;
         font-weight: 900;
-        
+        border-color: #FFC75F;
     }
 
 /* btn-2 */
     .btn-2 {
-        font-family: var(--ff-btn2);
+        font-family: "Poppins", sans-serif;
     }
 
 /* btn-3 */
 .btn-3 {
-    font-family: var(--ff-btn3);
+    font-family: "Playfair Display", serif;
 }
