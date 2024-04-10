@@ -67,6 +67,7 @@ p {
         background-color: #FFC75F;
         border-color: #FAF9F6;
         transition: 0.5s;
+        cursor: grab;
     }
 
 /* btn-2 */
