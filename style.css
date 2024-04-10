@@ -46,7 +46,7 @@ p {
     height: 40px;
     padding: 10px 25px;
     display: block;
-    margin: 0 auto 20px; /* Center and add margin to stack vertically */
+    margin: 0 auto 20px; 
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
@@ -95,4 +95,12 @@ p {
 /* btn-3 */
 .btn-3 {
     font-family: "Playfair Display", serif;
+    font-weight: 900;
+    color: #FAF9F6;
+    border: none;
+    border-radius: 5px;
+    background: rgb(180,193,255);
+    background: radial-gradient(circle, rgba(180,193,255,1) 0%, rgba(252,70,107,1) 100%);
+    transition: 2s;
+    border: 3px solid rgba(180,193,255,1)
 }
