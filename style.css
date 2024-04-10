@@ -79,6 +79,11 @@ p {
         border-radius: 8px;
         box-shadow: inset 0 -6px 0 0 #2F406E;
         text-shadow: 0px 3px #2F406E;
+        transition: 0.2s;
+    }
+
+    .btn-2:hover {
+        box-shadow: inset 0 -5px 0 0 #2F406E;
     }
 
 /* btn-3 */
