@@ -1,5 +1,8 @@
 # [SDF04] CSS Magic Buttons
 
+A practive to style various buttons with hover effects using transitions and animations. 
+
+
 removed majority of the styles for the buttons so i could build them from the ground up.
 
 
